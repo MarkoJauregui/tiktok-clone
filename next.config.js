@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+	reactStrictMode: true,
+	images: {
+		domains: ['img.seadn.io'],
+	},
+	swcMinify: true,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
